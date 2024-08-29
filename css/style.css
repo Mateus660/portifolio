@@ -114,5 +114,31 @@ section {
   margin-top: 10px;
 } 
 
+#Linguagem {
+  text-align: center;
+  margin-top: 20px;
+}
 
+.imagens {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente as imagens */
+  align-items: center; /* Alinha as imagens verticalmente */
+  gap: 20px; /* Espaçamento entre as imagens */
+  margin-top: 10px; /* Espaçamento entre o texto e as imagens */
+}
+
+.imagens img {
+  max-width: 100px; /* Controla o tamanho das imagens */
+  height: auto;
+}
+
+#projeto1 {
+  background-color: #918e8e;
+  padding: 5px;
+  width: auto;
+  height: auto;
+  border-radius: 5px; 
+  
+
+}
 
