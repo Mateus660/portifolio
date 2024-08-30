@@ -135,10 +135,11 @@ section {
 #projeto1 {
   background-color: #918e8e;
   padding: 5px;
-  width: auto;
+  width: 80%;
   height: auto;
-  border-radius: 5px; 
-  
-
+  border-radius: 12px; 
+  margin: 0 auto;
+  margin-top: 10px;
+ 
 }
 
