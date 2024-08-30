@@ -4,12 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 :root {
     --font:#918e8e;
     --font2:#D92B4B;
     --font3:#D977D2;
     --font4:#F28729;
     --font5:#730D1F;
+    --letra: 'Oswald';
 }
 
 * {
@@ -25,6 +28,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 main {
@@ -134,12 +138,35 @@ section {
 
 #projeto1 {
   background-color: #918e8e;
-  padding: 5px;
+  padding: 10px;
   width: 80%;
   height: auto;
   border-radius: 12px; 
   margin: 0 auto;
   margin-top: 10px;
- 
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;  
+   
 }
 
+#foto-projeto {
+  width: 70%;
+  border-radius: 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+#projeto1 > h2 {
+  font-size: 50px;
+}
+ 
+#projeto1 > p {
+  font-family: var(--letra);
+  color: black;
+  font-size: larger;
+}
