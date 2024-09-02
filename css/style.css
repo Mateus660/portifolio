@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,11 +37,11 @@ main {
 }
 
 header {
-    color: white;
+    color: red;
     display: flex;
     justify-content: flex-end;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 22px;
 
 }
 
@@ -74,7 +74,8 @@ header ul:hover {
 img {
     border-radius: 50%;
     margin-left: 30px;
-
+    max-width: 100%; /* Assegura que a imagem não transborde */
+    height: auto;
 }
 
 .flex {
@@ -85,7 +86,7 @@ img {
 
 h1 {
   color-interpolation-filters: white;
-  font-size: 40px;
+  font-size: 60px;
   color: #dd3f5c;
   text-align: center;
   font-family: "Bungee Tint", sans-serif;
@@ -103,15 +104,17 @@ h2 {
 
 p {
   font-family: Arial, Helvetica, sans-serif, bolder;
-  color: white;
+  color: black;
+  font-size: auto
 }
 
 #conteudo {
-  align-items: flex-start;
+
   padding: 10px;
   border-radius: 10px;
   margin-right: 50px;
   flex-wrap: wrap;
+  display: flex;
 }
 
 section {
@@ -137,7 +140,9 @@ section {
 }
 
 #projeto1 {
-  background-color: #918e8e;
+  background-color: white;
+  box-shadow: 0px 0px 5px black;
+  box-sizing: border-box;
   padding: 10px;
   width: 80%;
   height: auto;
@@ -162,7 +167,7 @@ section {
 }
 
 #projeto1 > h2 {
-  font-size: 50px;
+  font-size: 42px;
 }
  
 #projeto1 > p {
@@ -178,4 +183,7 @@ section {
   font-size: 24px;
 }
 
+#projeto1 > a:hover {
+   color: red;
+}
 
